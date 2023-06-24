@@ -1,0 +1,9 @@
+{
+  "log_dir": "./",
+  "file_mask": "*.log",
+  "db": {
+    "host": "localhost",
+    "user": "user",
+    "password": "password"
+  }
+}

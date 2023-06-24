@@ -1,0 +1,53 @@
+<h2>Logs by Host</h2>
+<table>
+    <tr>
+        <th>Host</th>
+        <th>Count</th>
+    </tr>
+    {% for log in logs_by_host %}
+    <tr>
+        <td>{{ log.host }}</td>
+        <td>{{ log.count }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">No logs available by host.</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Logs by Date</h2>
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Count</th>
+    </tr>
+    {% for log in logs_by_date %}
+    <tr>
+        <td>{{ log.date }}</td>
+        <td>{{ log.count }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">No logs available by date.</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Logs by Time Range</h2>
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Count</th>
+    </tr>
+    {% for log in logs_by_time_range %}
+    <tr>
+        <td>{{ log.time }}</td>
+        <td>{{ log.count }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">No logs available by time range.</td>
+    </tr>
+    {% endfor %}
+</table>
