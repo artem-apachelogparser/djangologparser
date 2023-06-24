@@ -26,8 +26,6 @@
     git clone https://github.com/artem-apachelogparser/djangologparser.git
     ```
 
-    Замените `https://github.com/artem-apachelogparser/djangologparser.git` на URL вашего репозитория.
-
 4. Перейдите в директорию проекта:
 
     ```
