@@ -23,10 +23,10 @@
 3. Клонируйте репозиторий проекта на свой компьютер. Для этого используйте команду `git clone`. Например:
 
     ```
-    git clone https://github.com/yourusername/djangologparser.git
+    git clone https://github.com/artem-apachelogparser/djangologparser.git
     ```
 
-    Замените `https://github.com/yourusername/djangologparser.git` на URL вашего репозитория.
+    Замените `https://github.com/artem-apachelogparser/djangologparser.git` на URL вашего репозитория.
 
 4. Перейдите в директорию проекта:
 
